@@ -1,0 +1,138 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+ body {
+    background: #FFFFFD;
+  }
+  .contener
+  {
+    width: 1261px;
+    margin: 0px auto;
+  }
+
+  .best-design{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #F8F7FD;
+    height: 600px;
+  }
+  .best-design-content
+  {
+    height: 600px;
+  }
+  .best-design-text{
+    box-sizing: border-box;
+    padding: 56px;
+    height: 100%;
+    width: 60%;
+    display: inline-block;
+    float: left;
+    position: relative;
+  } 
+
+  .best-design-text h1{
+    color: #ec411bc9;
+    font-size: 37px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    padding: 100px 0px 2px 0px;
+
+  }
+
+  .best-design-text p{
+    color: #9FA1AB;
+    font-size: 25px;
+    text-align: left;
+    line-height: 170%;
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+  }
+
+  .best-design-img{
+    height: 100%;
+    display: inline-block;
+    width: 40%;
+  }
+  .best-design-img img {
+    width: 100%;
+    height:100%;
+  }
+
+  .best-design-text i {
+    color: #de745c36;
+    font-size: 127px;
+    position: absolute;
+    bottom: 68px;
+    left: 59PX;
+  }
+
+  /*start updates */
+
+  .updates-content{
+    padding: 10px;
+    height: 300px;
+    margin-bottom: 100px;
+
+  }
+
+  .updetes-imgs{
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .updates-content h1{
+    color: rgba(10, 10, 10, 0.678);
+    margin: 0px auto;
+    text-align: center;
+    font-size: 64px;
+    padding: 50px;
+    text-transform: capitalize;
+  }
+
+  .updetes-imgs figure{
+    background-color: #F8F7FD;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 28%;
+    height: 395px;
+    padding: 1px 22px;
+    margin: 0px 22px;
+    text-align: left;
+  }
+
+  .updetes-imgs figure img{
+    display: block;
+    width: 99%;
+    border-radius: 5px;
+  }
+
+  .updetes-imgs figure h4 {
+    font-size: 20px;
+    color: rgba(36, 34, 34, 0.671);
+    font-style: italic;
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+
+  }
+  .updetes-imgs figure figcaption ul {
+    width: 100%;
+    list-style-type: none;
+    float: right;
+  }
+  .updetes-imgs figure figcaption ul li {
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 36px 0px 0px;
+  }
+
+  .pic {
+    float: left;
+  }
+
+  .pic i {
+    font-size: 20px;
+  }
+
+    /* end updates */
